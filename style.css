@@ -1,0 +1,16 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+*					{ margin: 0; padding: 0; }
+body				{ padding: 50px; }
+.floatLeft 			{ float: left; }
+.floatRight			{ float: right; }
+.clear				{ clear: both; }
+
+#page-wrap			{ width: 500px; margin: 0 auto; }
+p					{ margin: 15px 0; }
+
+.headline			{ font-family:Optimer; font-size: 24px; color: #900; }

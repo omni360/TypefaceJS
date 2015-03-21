@@ -1,0 +1,8 @@
+Revision history for Perl module TypefaceJS
+
+0.10 Sat Oct 11 16:41:06 2008
+    - original version
+
+0.11 Fri Jan 28 08:07:51 2011
+    - documentation fixes
+    - add max dimensions per glyph

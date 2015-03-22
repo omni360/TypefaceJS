@@ -62,3 +62,8 @@ COPYRIGHT
 SEE ALSO
     Font::Freetype, Font::TTF::Font, Unicode::UCD
 
+unicode range names
+
+1.	http://fossies.org/windows/www/xampp-win32-5.5.19-0-VC11.zip/xampp/perl/lib/Unicode/UCD.pm
+2.	http://www.unicode.org/Public/UNIDATA/Blocks.txt2.	http://www.unicode.org/Public/UNIDATA/Blocks.txt
+3.	中日韩文字区间	'CJK Unified Ideographs'

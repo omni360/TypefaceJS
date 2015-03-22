@@ -262,19 +262,15 @@ sub _convert_font {
 		$typeface->{glyphs}->{$character}->{x_max} = $bbox->{xMax}; 
 		
 		# d is for dimension
-		my @arrd = qw(xMax yMax);
-		foreach my $d (@arrd) {
-		# while ( my $d qw(xMax yMax);) {
+		for my $d qw(xMax yMax) {
 			$typeface->{boundingBox}->{$d} ||= $bbox->{$d} || 0;
 			$typeface->{boundingBox}->{$d} = 
 				($bbox->{$d} > $typeface->{boundingBox}->{$d}) ? 
 					$bbox->{$d} : 
 					$typeface->{boundingBox}->{$d};
 		}
-		
-		my @arrd = qw(xMin yMin);
-		foreach my $d (@arrd) {
-		# while ( my $d qw(xMin yMin);) {
+
+		for my $d qw(xMin yMin) {
 			$typeface->{boundingBox}->{$d} ||= $bbox->{$d} || 0;
 			$typeface->{boundingBox}->{$d} = 
 				($bbox->{$d} < $typeface->{boundingBox}->{$d}) ? 
